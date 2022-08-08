@@ -1,0 +1,82 @@
+
+.calendarMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.monthNum {
+  margin: auto 0;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.yearStyle {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.table {
+  width: 700px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1px 0 1px 0;
+  font-size: 20px;
+}
+
+.table div {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+.table div:not(.header):hover {
+  text-decoration: underline wavy whitesmoke 2px;
+}
+
+.table div .header {
+  height: 32px;
+}
+
+.weekend {
+  color: rgb(240, 1, 0);
+}
+
+.today {
+  color: gold;
+  font-weight: 600;
+}
+
+.nav {
+  width: 820px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 5px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.space:hover {
+  cursor: url(./img/water.png), auto;
+}
+
+img:hover {
+  cursor: url(./img/water.png), auto;
+}
+
+#time{
+font-size: 15px;
+position: fixed;
+top: 150px;
+left: 500px;
+}
